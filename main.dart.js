@@ -77079,11 +77079,11 @@ case 5:h.length===o||(0,A.M)(h),++k
 s=4
 break
 case 6:B.b.fo(n,new A.a5t())
-h=q.y=B.b.R0(n,new A.a5u(i))
+h=B.b.R0(n,new A.a5u(i))
+q.y=h
 if(h===0){q.y=1
 q.r=A.aj(255,255,181,43)
-q.Sj()}else q.y=h+1
-A.dm(q.y)
+q.Sj()}A.dm(q.y)
 h=q.y
 q.as.$1(h)
 h=$.bf
@@ -77136,7 +77136,7 @@ g=A.amT(j,k.b)
 n.push(A.ac(["timestamp",g==null?null:g.h(0,"timestamp").yo(),"data",g],p,o));++q.Q
 B.b.fo(n,new A.a5r())
 j=q.y=B.b.R0(n,new A.a5s(m))
-j=j===0?q.y=1:q.y=j+1
+if(j===0)j=q.y=1
 q.as.$1(j)}}},
 $S:499}
 A.a5r.prototype={
